@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import './App.css'
 
 function App() {
-  const [color, setColor] = useState("white")
+  const [color, setColor] = useState("orange")
   const click = color =>{
     setColor(color)
   }
